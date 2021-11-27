@@ -14,7 +14,8 @@ const forecast = (lati, long, callback) => {
                             ". It is currently " + 
                             body.current.temperature + 
                             " degrees out. It feels like " + 
-                            body.current.feelslike + " degrees out")
+                            body.current.feelslike + " degrees out. " +
+                            "The Humidity is " + body.current.humidity + "%.")
         }
     })
 

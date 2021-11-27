@@ -41,7 +41,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: "Help",
-        info: "This is some helpful text",
+        info: "Enter the location you want to retrieve weather data for, e.g. Boston",
         name: "Wole Ajewole"
     })
 })
